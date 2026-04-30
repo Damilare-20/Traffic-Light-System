@@ -1,5 +1,5 @@
  function checkLight() {
-      let color = document.getElementById("colorInput").value;
+      let color = document.getElementById("colorInput").value.toLowerCase();
       let light = document.getElementById("trafficLight");
       let result = "";
 
